@@ -1,20 +1,21 @@
-function onSignIn(googleUser) {
-    var profile= googleUser.getBasicProfile();
-    $("#name").text(profile.getName());
-    $("#image").attr('src', profile.getImageUrl());
-    $(".data").css("display", "block");
-    $(".g-signin2").css("display", "none");
-}
 
-function signOut() {
-    var auth2 = gapi.auth2.getAuthInstance();
-    auth2.signOut().then(function (){
-        alert("You have been successfully signed out");
-        $(".g-signin2").css("display", "block");
-        $(".data").css("display", "none");
-    });
-}
 $(document).ready(function () {
+    function onSignIn(googleUser) {
+        var profile= googleUser.getBasicProfile();
+        $("#name").text(profile.getName());
+        $("#image").attr('src', profile.getImageUrl());
+        $(".data").css("display", "block");
+        $(".g-signin2").css("display", "none");
+    }
+    
+    function signOut() {
+        var auth2 = gapi.auth2.getAuthInstance();
+        auth2.signOut().then(function (){
+            alert("You have been successfully signed out");
+            $(".g-signin2").css("display", "block");
+            $(".data").css("display", "none");
+        });
+    }
 
     var key = 'AIzaSyB4Vep5Dxp_UZBv_S_LYcR8DQYEAXtZE3s';
     var playlistId = 'PL2fnLUTsNyq7A335zB_RpOzu7hEUcSJbB';
