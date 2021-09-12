@@ -55,9 +55,20 @@
           <div class="fakeimg" style="height:60px;">Image</div>
         </div>
         <div class="main">
-          <h2>CHANNEL VIDEOS</h2>
-          <h5>Click on any video to play.</h5><br>
-          <div class="row" id="video-container"></div>
+            <div id="content">
+                <div class="row">
+                  <div class="col s6">
+                    <form id="channel-form">
+                      <div class="input-field col s6">
+                        <input type="text" placeholder="Enter Channel Name" id="channel-input">
+                        <input type="submit" value="Get Channel Data" class="btn grey">
+                      </div>
+                    </form>
+                  </div>
+                  <div id="channel-data" class="col s6"></div>
+                </div>
+                <div class="row" id="video-container"></div>
+              </div>
           <div class="fakeimg" style="height:200px;">Image</div>
           
         </div>
