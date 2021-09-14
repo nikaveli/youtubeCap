@@ -11,6 +11,7 @@ const content = document.getElementById('content');
 const channelForm = document.getElementById('channel-form');
 const channelInput = document.getElementById('channel-input');
 const videoContainer = document.getElementById('video-container');
+const videoInfo = document.getElementById('channel-data')
 
 const defaultChannel = 'nckmolinanet';
 
@@ -59,6 +60,7 @@ function updateSigninStatus(isSignedIn) {
     signoutButton.style.display = 'none';
     content.style.display = 'none';
     videoContainer.style.display = 'none';
+    videoInfo.style.display = 'none';
   }
 }
 
