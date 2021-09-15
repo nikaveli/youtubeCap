@@ -58,16 +58,18 @@ body {
 
 /* Column container */
 .row {  
-  .flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row1 {
     border: 1px solid red;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: stretch;
-  
 }
-
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
