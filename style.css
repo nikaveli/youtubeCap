@@ -58,8 +58,14 @@ body {
 
 /* Column container */
 .row {  
-  display: flex;
-  flex-wrap: wrap;
+  .flex {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+  
 }
 
 /* Create two unequal columns that sits next to each other */
@@ -72,8 +78,6 @@ body {
 
 /* Main column */
 .main {
-  display:grid; 
-  grid-template-columns: repeat(3, 1fr);
   flex: 70%;
   background-color: white;
   padding: 20px;
