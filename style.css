@@ -16,14 +16,16 @@
   width: 300px;
   height: auto;
 }
-/* }#video-container {
-  display: flex;
+#video-container {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr !important;
+  /* display: flex;
   flex-wrap: nowrap;
 #video-container > div {
   background-color: #f1f1f1;
   width: 300px;
-  margin: 10px;
-} */
+  margin: 10px; */
+}
 /* Style the body */
 body {
   font-family: Arial;
