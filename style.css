@@ -5,16 +5,16 @@
 }
 @media screen and (max-width: 700px) {
   .row, .navbar {   
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 
 * {
   box-sizing: border-box;
 }
-#video-container {
+/* #video-container {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: nowrap; */
 }
 #video-container > div {
   background-color: #f1f1f1;
@@ -62,13 +62,13 @@ body {
   flex-wrap: wrap;
 }
 
-.row1 {
+/* .row1 {
     border: 1px solid red;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    align-items: stretch;
+    align-items: stretch; */
 }
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
