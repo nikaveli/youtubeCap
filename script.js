@@ -54,8 +54,8 @@ function updateSigninStatus(isSignedIn) {
     signoutButton.style.display = 'block';
     content.style.display = 'block';
     videoContainer.style.display = 'block';
-    videoInfo.style.display = 'grid; 
-    grid-template-columns: repeat(3, 1fr);'
+    videoInfo.style.display = 'grid';
+    getChannel(defaultChannel);
   } else {
     authorizeButton.style.display = 'block';
     signoutButton.style.display = 'none';
