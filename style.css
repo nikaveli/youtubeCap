@@ -12,15 +12,19 @@
 * {
   box-sizing: border-box;
 }
-#video-container {
+/* #video-container {
   width: 100%;
   height: auto;
   padding: 20px 20px;
   margin: 20Px;
-}
+} */
 #video-container {
   display: grid !important;
   grid-template-columns: 1fr 1fr 1fr !important;
+  width: 100%;
+  height: auto;
+  padding: 20px 20px !important;
+  margin: 20Px;
   /* display: flex;
   flex-wrap: nowrap;
 #video-container > div {
