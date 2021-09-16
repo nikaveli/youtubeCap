@@ -13,7 +13,7 @@
   box-sizing: border-box;
 }
 #video-container {
-  width: 300px;
+  width: 100%;
   height: auto;
 }
 #video-container {
