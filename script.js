@@ -136,7 +136,7 @@ function requestVideoPlaylist(playlistId) {
     console.log(response);
     const playListItems = response.result.items;
     if (playListItems) {
-      let output = '<br><h4 class="center-align">Latest Videos</h4>';
+      let output = '<br><h4 class="center-align">Latest Videos</h4><br>';
 
       // Loop through videos and append output
       playListItems.forEach(item => {
