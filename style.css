@@ -16,6 +16,7 @@
   width: 100%;
   height: auto;
   padding: 20px 20px;
+  margin: 20Px;
 }
 #video-container {
   display: grid !important;
