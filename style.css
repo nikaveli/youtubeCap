@@ -15,7 +15,7 @@
 #video-container {
   width: 100%;
   height: auto;
-  padding: 20px;
+  padding: 20px 20px;
 }
 #video-container {
   display: grid !important;
