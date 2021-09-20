@@ -5,7 +5,8 @@
 }
 @media (max-width: 400px) {
   .flex-grid {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
   }
   .col-3{
     width: 100%;
