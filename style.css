@@ -7,6 +7,12 @@
   .flex-grid {
     display: block;
   }
+  .col-3{
+    width: 100%;
+  }
+  .col-9{
+    width: 100%;
+  }
 }
 
 * {
