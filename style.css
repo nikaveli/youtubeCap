@@ -89,6 +89,20 @@ input[type="text"]{
   padding: 5px;
 }
 
+#authorize-button {
+  font-size: 16px !important;
+  background-color: #f44336; 
+  color: black; 
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  padding: 10px 24px;
+}
+
+#authorize-button:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
 .button {
   font-size: 16px !important;
   background-color: #f44336; 
