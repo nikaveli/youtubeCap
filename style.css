@@ -62,7 +62,7 @@ body {
   padding: 30px, 30px, 30px, 30px !important;
   margin: 20Px !important;
 } */
-
+#video-con
 .header {
   padding: 60px;
   text-align: center;
@@ -96,4 +96,9 @@ body {
   padding: 20px;
   text-align: center;
   background: #ddd;
+}
+.vidBox {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
 }
