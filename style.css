@@ -35,6 +35,7 @@
 
 #grad {
   background-image: linear-gradient(rgb(161, 2, 2), rgb(255, 52, 52));
+  padding: 20%;
 }
 
 .col-1 {width: 8.33%;}
