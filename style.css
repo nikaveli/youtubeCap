@@ -62,9 +62,15 @@ body {
   padding: 30px, 30px, 30px, 30px !important;
   margin: 20Px !important;
 }
+
 #channel-data {
   color: white;
 }
+
+#channel-form {
+  text-align: center;
+}
+
 .header {
   padding: 60px;
   text-align: center;
