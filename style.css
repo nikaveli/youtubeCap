@@ -95,7 +95,7 @@ input[type="text"]{
   color: black; 
   border: 2px solid #ffffff;
   border-radius: 4px;
-  padding: 10px 5px;
+  padding: 5px 24px;
 }
 
 #authorize-button:hover {
