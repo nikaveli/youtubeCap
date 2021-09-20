@@ -71,6 +71,7 @@
   display: flex;
   color: white;
   background-color: #333;
+  padding: 10px;
 }
 
 /* Style the navigation bar links */
