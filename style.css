@@ -89,6 +89,17 @@ input[type="text"]{
   padding: 5px;
 }
 
+.button {
+  background-color: f44336; 
+  color: black; 
+  border: 2px solid #ffffff;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
 .header {
   padding: 60px;
   text-align: center;
