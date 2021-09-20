@@ -52,7 +52,7 @@
   padding: 20px 20px;
   margin: 20Px;
 } */
-#video-container {
+/* #video-container {
   display: grid !important;
   grid-template-columns: 1fr 1fr 1fr !important;
   width: 100%;
@@ -68,7 +68,7 @@
 }
 .vidBox {
   padding: 10px;
-}
+} */
 /* Style the body */
 body {
   font-family: Arial;
@@ -105,10 +105,10 @@ body {
 }
 
 /* Column container */
-.row {  
+/* .row {  
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
 /* .row1 {
     border: 1px solid red;
@@ -156,6 +156,6 @@ body {
   color: white;
   
 }
-.container{
+/* .container{
   display: flex;
-}
+} */
