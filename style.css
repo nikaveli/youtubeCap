@@ -49,10 +49,9 @@
 #video-container {
   display: grid !important;
   grid-template-columns: 1fr 1fr 1fr !important;
-  width: 100%;
-  height: auto;
+ 
   padding: 30px, 30px, 30px, 30px !important;
-  margin: 20Px;
+  margin: 20Px !important;
 }
 
 .header {
