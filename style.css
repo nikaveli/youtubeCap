@@ -71,6 +71,10 @@ body {
   text-align: center;
 }
 
+.input-field {
+  width: 50px;
+}
+
 .header {
   padding: 60px;
   text-align: center;
