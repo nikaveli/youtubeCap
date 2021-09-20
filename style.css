@@ -133,6 +133,14 @@ input[type="text"]{
   padding: 10px;
 }
 
+.logInbar {
+  display: flex;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+
 /* Style the navigation bar links */
 .navbar a {
   color: white;
