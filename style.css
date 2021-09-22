@@ -81,6 +81,11 @@ a:active {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+@media screen and (min-width: 480px){
+  #video-container {
+    background-color:blue;
+  }
+}
 #video-container {
   display: grid !important;
   grid-template-columns: 1fr 1fr 1fr !important;
