@@ -152,7 +152,9 @@ input[type="text"]{
   padding: 10px;
 }
 
-
+#center1 {
+  text-align: center;
+}
 
 .logInbar {
   display: flex;
