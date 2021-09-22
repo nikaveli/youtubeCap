@@ -83,7 +83,7 @@ a:active {
 
 @media screen and (max-width: 480px){
   #video-container {
-    grid-template-rows: repeat(1, auto) !important;
+    grid-template-columns: repeat(1fr, auto) !important;
   }
 }
 #video-container {
