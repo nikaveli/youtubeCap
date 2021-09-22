@@ -81,17 +81,17 @@ a:active {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+#video-container {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+  padding: 30px, 30px, 30px, 30px !important;
+  margin: 20Px !important;
+}
 @media screen and (max-width: 480px){
   #video-container {
     grid-template-columns: repeat(1fr, auto) !important;
   }
-}
-#video-container {
-  display: grid !important;
-  grid-template-columns: 1fr 1fr 1fr !important;
- 
-  padding: 30px, 30px, 30px, 30px !important;
-  margin: 20Px !important;
 }
 
 #channel-data {
