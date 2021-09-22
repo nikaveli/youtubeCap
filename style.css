@@ -138,9 +138,9 @@ input[type="text"]{
 }
 
 .header {
-  padding: 60px;
+  padding: 0px;
   text-align: center;
-  background: #4d2930;
+  background: #000000;
   color: white;
 }
 
