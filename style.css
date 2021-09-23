@@ -91,6 +91,12 @@ a:active {
 .col-12 {width: 100%;}
 
 #video-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 100px 100px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444; 
   /* display: grid !important;
   grid-template-columns: 1fr 1fr 1fr;
   
