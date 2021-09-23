@@ -91,11 +91,11 @@ a:active {
 .col-12 {width: 100%;}
 
 #video-container {
-  display: grid !important;
+  /* display: grid !important;
   grid-template-columns: 1fr 1fr 1fr;
   
   padding: 30px, 30px, 30px, 30px !important;
-  margin: 20Px !important;
+  margin: 20Px !important; */
 }
 @media screen and (max-width: 480px){
   #video-container {
