@@ -97,11 +97,11 @@ a:active {
   padding: 30px, 30px, 30px, 30px !important;
   margin: 20Px !important; */
 }
-@media screen and (max-width: 480px){
+/* @media screen and (max-width: 480px){
   #video-container {
     grid-template-columns: repeat(1fr, auto) !important;
   }
-}
+} */
 
 #channel-data {
   color: white;
