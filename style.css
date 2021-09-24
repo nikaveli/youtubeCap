@@ -16,13 +16,6 @@
   }
 }
 
-section {
-  display: flex;
-}
-div {
-  flex-grow: 1;
-}
-
 .colGrid {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
@@ -99,12 +92,12 @@ a:active {
 
 #video-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 2fr 2fr 2fr;
   grid-template-rows: 100px 100px;
   grid-gap: 10px;
   background-color: #fff;
   color: #444; 
-  display: grid !important;
+  /* display: grid !important;
   grid-template-columns: 1fr 1fr 1fr;
   
   padding: 30px, 30px, 30px, 30px !important;
@@ -114,7 +107,7 @@ a:active {
   #video-container {
     grid-template-columns: repeat(1fr, auto) !important;
   }
-}
+} */
 
 #channel-data {
   color: white;
@@ -212,7 +205,7 @@ input[type="text"]{
   background: rgb(48, 48, 48);
 }
 .vidBox {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  padding: 10px;
+  padding: 10px; */
 }
