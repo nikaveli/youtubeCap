@@ -16,6 +16,13 @@
   }
 }
 
+section {
+  display: flex;
+}
+div {
+  flex-grow: 1;
+}
+
 .colGrid {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
