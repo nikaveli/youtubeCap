@@ -23,14 +23,14 @@ div {
   flex-grow: 1;
 }
 
-/* .colGrid {
+.colGrid {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
   grid-template-rows: 100px 100px;
   grid-gap: 10px;
   background-color: #fff;
   color: #444; 
-} */
+}
 
 * {
   box-sizing: border-box;
