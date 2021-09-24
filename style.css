@@ -212,7 +212,7 @@ input[type="text"]{
   background: rgb(48, 48, 48);
 }
 .vidBox {
-  /* display: flex;
+  display: flex;
   flex-wrap: wrap;
-  padding: 10px; */
+  padding: 10px;
 }
